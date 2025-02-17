@@ -13,10 +13,9 @@
         />
       </div>
 
-      <!-- front page app welcome message (only visible before searching) -->
+      <!-- front page app welcome message (only visible before searching), which can be translated between english and german -->
       <div v-if="!weather.main && !error" class="welcomePage">
-        <div class="welcomeMessage"> Welcome to my weather app !</div>
-
+        <div class="welcomeMessage"> {{ translations[language].welcomeMessage }} </div>
         <!-- the unit switch button -->
         <button @click="toggleUnit">
           {{ translations[language].switchUnit }} {{ unit === 'metric' ? '°F' : '°C' }}
@@ -143,6 +142,7 @@ export default {
           feelsLike:"Feels Like",
           wind:"Wind",
           humidity:"Humidity",
+          welcomeMessage: "Welcome to my weather app!",
           weatherConditions: {
             Clear: "Clear",
             Clouds: "Cloudy",
@@ -166,6 +166,7 @@ export default {
         feelsLike: "Gefühlt",
         wind: "Wind",
         humidity: "Luftfeuchtigkeit",
+        welcomeMessage: "Willkommen bei meiner Wetter-App!",
         weatherConditions: {
           Clear: "Klar",
           Clouds: "Bewölkt",
@@ -277,6 +278,11 @@ toggleUnit() {
   }
 },
 
+// translates the welcome message between English and German
+toggleLanguage() {
+  this.language = this.language === "en" ? "de" : "en";
+},
+
 
   // this updates the weather data after recieving the results from the api
    setResults(results) {
@@ -305,13 +311,13 @@ toggleUnit() {
 </script>
 
 <style>
+
+/* base border and margin styling for the entire page */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
-/* Body styling */
 
 /* styling that affects the entire web application page */
 body {
@@ -327,7 +333,7 @@ body {
 }
 
 
-/* the styles of the main container for the app */
+/* styles of the main container for the app */
 #app {
   width: 100%; 
   max-width: 1200px; 
@@ -339,7 +345,7 @@ body {
   border-radius: 8px; 
 }
 
-/* the container for the search bar section */
+/* container for the search bar section */
 
 .searchBox {
   width: 100%;
@@ -347,7 +353,7 @@ body {
   padding-top: 50px;
 }
 
-/* the styling for the search inout field  */
+/* styling for the search inout field  */
 .searchBox .searchBar {
   width: 100%;
   padding: 10px;
@@ -363,7 +369,7 @@ body {
   background-color: #ffffff;
 }
 
-/* the styling for the welcome section */
+/* styling for the welcome section */
 .welcomePage .welcomeMessage {
   font-size: 24px;
   margin: 20px 0;
@@ -377,25 +383,25 @@ body {
   padding-top: 30px;
 }
 
-/* the styling for the location display, which includes the city and country */
+/* styling for the location display, which includes the city and country */
 .locationBox .location {
   font-size: 24px;
   font-weight: bold;
 }
 
-/* the styling for the city name */
+/* styling for the city name */
 .city {
   font-size: 24px;
   font-weight: bold;
 }
 
-/* the stylign for the country name abbreviation */
+/* stylign for the country name abbreviation */
 .country {
   font-size: 20px;
   font-weight: bold;
 }
 
-/* the styling for the temperature display */
+/* styling for the temperature display */
 .weatherBox .temp {
   font-size: 80px;
   font-weight: bold;
@@ -403,20 +409,20 @@ body {
   line-height: 1.5;
 }
 
-/* the styling for both units of temperature */
+/* styling for both units of temperature */
 .unit {
   font-size: 30px;
   vertical-align: baseline;
 }
 
-/* the styling for the highest and lowest temperature */
+/* styling for the highest and lowest temperature */
 .highLow {
   font-size: 12px;
   color: #000000;
 
 }
 
-/* the styling for the weather condition text */
+/* styling for the weather condition text */
 .weatherBox .weather {
   font-size: 28px;
   font-weight: bold;
@@ -472,3 +478,4 @@ line-height: 1.5;
 }
 
 </style>
+

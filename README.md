@@ -48,6 +48,7 @@ MyWeatherApp is a web-based application that provides users with access to relia
   •	Once the test is past, the weather application is ready for use, enjoy!
 
 ## 5.	Troubleshooting
-  •	A common issue is Node.js version incompatibility, the script npm install will fail, make sure to check its current version and update it on from the Node.js website.
-  •	Another common issue is Vue.js not being recognised, the script vue –version will fail, then install Vue CLI globally using the script: npm install -g @vue/cli.
-  •	If the localhost port is no longer updating and fetching data, clear the terminal (press on the three dots on the right side of the terminal, then press on clear terminal), and run the application again.
+A common issue is Node.js version incompatibility, the script npm install will fail, make sure to check its current version and update it on from the Node.js website.
+Another common issue is Vue.js not being recognised, the script vue –version will fail, then install Vue CLI globally using the script: npm install -g @vue/cli.
+
+If the localhost port is no longer updating and fetching data, clear the terminal (press on the three dots on the right side of the terminal, then press on clear terminal), and run the application again.

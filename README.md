@@ -44,11 +44,10 @@ MyWeatherApp is a web-based application that provides users with access to relia
 
 ## 4.	Testing 
   
-  Once the application is live, type a city name into the search bar 
+  - Once the application is live, type a city name into the search bar
+  - Ensure that all necessary weather data are displayed correctly
   
-  Ensure that all necessary weather data are displayed correctly
-  
-  Once the test is past, the weather application is ready for use, enjoy!
+  - Once the test is past, the weather application is ready for use, enjoy!
 
 ## 5.	Troubleshooting
 

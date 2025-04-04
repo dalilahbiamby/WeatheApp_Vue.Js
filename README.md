@@ -7,39 +7,63 @@ MyWeatherApp is a web-based application that provides users with access to relia
 ## 2.	Installation Prerequisites
 
   ### 2.1	System Requirements
-  •	Operating System: Windows, macOS, or Linux
-  •	Internet Connection is required for the API to return data and for the package installation
+  
+  - Operating System: Windows, macOS, or Linux
+  
+  - Internet Connection is required for the API to return data and for the package installation
   
   ### 2.2. Software Requirements
-  •	Install VS Code as the code editor (or any preferred code editor)
-  •	Install Node.js due to Vue.js development tools’ requirements
-    o	Verify the installation in the command prompt using the following scripts:
-    o	(If correctly installed version numbers will be returned)
-      	node -v
-      	npm - v
-  •	Install Git as for version control 
-    o	Verify the installation in the command prompt using the following scripts:
-    o	(If correctly installed version number will be returned)
-      	git –version
-  •	Install Chrome or Firefox as the web browser
+  
+  - Install VS Code as the code editor (or any preferred code editor)
+  
+  - Install Node.js due to Vue.js development tools’ requirements
+
+    - Verify the installation in the command prompt using the following scripts:
+
+    - (If correctly installed version numbers will be returned)
+
+      - node -v
+    
+      - npm - v
+  
+  - Install Git as for version control 
+
+    - Verify the installation in the command prompt using the following scripts:
+
+    - (If correctly installed version number will be returned)
+
+      - git –version
+  
+  - Install Chrome or Firefox as the web browser
   
 ## 2.3 Programming Languages Used  
-  •	HTML: Web page structure
-  •	CSS: Web page styling
-  •	Vue.js: Web page logic - JavaScript based framework
+  
+  - HTML: Web page structure
+  
+  - CSS: Web page styling
+  
+  - Vue.js: Web page logic - JavaScript based framework
 
 ## 3.	The Installation & Run Steps
+  
   ### 3.1. Clone the Repository via the command prompt or the terminal with script:
-  •	git clone https://github.com/dalilahbiamby/WeatheApp_Vue.Js/blob/main/src/components/dashBoard.vue 
-  •	cd WeatherApp_Vue.Js
+  
+  - git clone https://github.com/dalilahbiamby/WeatheApp_Vue.Js/blob/main/src/components/dashBoard.vue
+  
+  - cd WeatherApp_Vue.Js
   
   ### 3.2. 	Install Dependencies via the command prompt or the terminal with script:
-  •	npm install
+  
+  - npm install
   
   ### 3.5. Run the application via the command prompt or the terminal with script:
+  
   - npm run dev
+  
     - Open the localhost url that gets returned in the command prompt/terminal.
+    
       - The application will open in default browser
+
       - Tip: press command and left click the localhost url to open it in the browser
 
 ## 4.	Testing 

@@ -18,7 +18,7 @@ MyWeatherApp is a web-based application that provides users with access to relia
   
   - Install Node.js due to Vue.js development tools’ requirements
 
-    - Verify the installation in the command prompt using the following scripts:
+    - Verify the installation in the command prompt or terminal using the following scripts:
 
     - (If correctly installed version numbers will be returned)
 
@@ -28,7 +28,7 @@ MyWeatherApp is a web-based application that provides users with access to relia
   
   - Install Git as for version control 
 
-    - Verify the installation in the command prompt using the following scripts:
+    - Verify the installation in the command prompt or terminal using the following scripts:
 
     - (If correctly installed version number will be returned)
 
@@ -76,8 +76,8 @@ MyWeatherApp is a web-based application that provides users with access to relia
 
 ## 5.	Troubleshooting
 
-  - A common issue is Node.js version incompatibility, the script npm install will fail, make sure to check its current version and update it on from the Node.js website.
+  - A common issue is Node.js version incompatibility, the script npm install will fail, open the command prompt or terminal to make sure to check its current version and update it on from the Node.js website.
   
-  - Another common issue is Vue.js not being recognised, the script vue –version will fail, then install Vue Vite globally using the script: npm install -g @vite.
+  - Another common issue is Vue.js not being recognised, the script vue –version will fail, open the command prompt or terminal to install Vue Vite globally using the script: npm install -g @vite.
   
-  -  If the localhost port is no longer updating and fetching data, clear the terminal (press on the three dots on the right side of the terminal, then press on clear terminal), and run the application again.
+  -  If the localhost port is no longer updating and fetching data, clear the commmand prompt or terminal (press on the three dots on the right side of the terminal, then press on clear terminal), and run the application again.

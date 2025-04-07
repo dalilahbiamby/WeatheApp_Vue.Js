@@ -20,7 +20,7 @@ MyWeatherApp is a web-based application that provides users with access to relia
 
     - Verify the installation in the command prompt or terminal using the following scripts:
 
-    - (If correctly installed version numbers will be returned)
+    - (If correctly installed version numbers will be returned) 
 
       - node -v
     

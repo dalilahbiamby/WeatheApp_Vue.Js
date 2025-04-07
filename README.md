@@ -48,7 +48,7 @@ MyWeatherApp is a web-based application that provides users with access to relia
   
   ### 3.1. Clone the Repository via the command prompt or the terminal with script:
   
-  - git clone https://github.com/dalilahbiamby/WeatheApp_Vue.Js/blob/main/src/components/dashBoard.vue
+  - git clone https://github.com/dalilahbiamby/WeatheApp_Vue.Js
   
   - cd WeatherApp_Vue.Js
   

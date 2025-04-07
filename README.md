@@ -72,7 +72,7 @@ MyWeatherApp is a web-based application that provides users with access to relia
 
   - Ensure that all necessary weather data are displayed correctly
 
-  - Once the test is past, the weather application is ready for use, enjoy!
+  - Once the test is past, the weather application is ready for use.
 
 ## 5.	Troubleshooting
 
